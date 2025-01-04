@@ -124,7 +124,7 @@ function PrincipalPage() {
 
   return (
     <div className="page page--main">
-      <header className="header header--main">
+      <header className="header header_main">
         <div className="header__container">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphFr1Ay6uVgEhvW590zUO80z6wcKMj4CmHA&s"
@@ -161,7 +161,7 @@ function PrincipalPage() {
         </div>
       </div>
 
-      <main className="main-content">
+      <main className="main-content main-content_top">
         <div className="welcome-message">
           {userEmail && <h2>¡Bienvenido, {userEmail}!</h2>}
         </div>
