@@ -1,0 +1,24 @@
+
+
+root = true
+
+[*]
+# Codificación UTF-8
+charset = utf-8
+
+# Final de línea: LF para sistemas Unix (Linux, macOS), CRLF para Windows
+end_of_line = lf
+
+# Añadir una línea en blanco al final de los archivos
+insert_final_newline = true
+
+# Eliminar los espacios en blanco al final de las líneas
+trim_trailing_whitespace = true
+
+# Indentación con 2 espacios
+indent_style = space
+indent_size = 2
+
+# Para los archivos JavaScript, HTML y CSS, usa las mismas configuraciones
+[*.{js,html,css}]
+indent_size = 2
