@@ -79,7 +79,7 @@ function Register() {
           </form>
 
           <p className="register-form__login">
-            ¿Ya tienes cuenta? <a href="/login">Inicia sesión aquí</a>
+            ¿Ya tienes cuenta? <a href="#/login">Inicia sesión aquí</a>
           </p>
         </section>
       </main>

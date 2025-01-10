@@ -65,7 +65,8 @@ function Login() {
             <button className="login-form__button" type="submit">Iniciar Sesión</button>
           </form>
           <p className="login-form__register">
-            ¿No tienes cuenta? <a href="/register">Regístrate aquí</a>
+            ¿No tienes cuenta? <a href="#/register">Regístrate aquí</a>
+
           </p>
         </section>
       </main>

@@ -133,10 +133,10 @@ function PrincipalPage() {
           />
           <nav className="header__nav">
             <a href="https://www.imdb.com" target="_blank" className="header__link">
-              <img src="/images/film.svg" alt="Más películas" className="header__icon" />More Movies IMDb
+            <img src={`${process.env.PUBLIC_URL}/film.svg`} alt="Más películas" className="header__icon" />More Movies IMDb
             </a>
             <a href="#" className="header__link" id="favorites-btn" onClick={handleFavoritesPopup}>
-              <img src="/images/briefcase.svg" alt="Favoritos" className="header__icon" />Favorites
+            <img src={`${process.env.PUBLIC_URL}/briefcase.svg`} alt="Favoritos" className="header__icon" />Favorites
             </a>
           </nav>
           <form className="search__form" id="search-form" onSubmit={handleSearch}>
@@ -175,7 +175,7 @@ function PrincipalPage() {
       <footer className="footer">
         <button className="header__logout" onClick={handleLogout}>
           Cerrar Sesión
-          <img src="/images/log-out.svg" alt="Cerrar sesión" className="header__logout-icon" />
+          <img src={`${process.env.PUBLIC_URL}/log-out.svg`} alt="Cerrar sesión" className="header__logout-icon" />
         </button>
         <p className="footer__text">© 2024 Final Frontier. Todos los derechos reservados.</p>
       </footer>
