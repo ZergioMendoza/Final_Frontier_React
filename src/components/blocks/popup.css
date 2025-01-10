@@ -9,8 +9,8 @@
   height: 70%;
   background: linear-gradient(135deg, #1a1a2e, #16213e); /* Fondo degradado futurista */
   border-radius: 15px;
-  border: 3px solid var(--neon-azul); /* Borde azul neón */
-  box-shadow: 0 0 20px var(--neon-azul), 0 0 30px var(--neon-azul); /* Efecto de neón */
+  border: 3px solid var(--neon-azul); /* Borde azul neÃ³n */
+  box-shadow: 0 0 20px var(--neon-azul), 0 0 30px var(--neon-azul); /* Efecto de neÃ³n */
   z-index: 100;
   overflow: hidden; /* Evita que el contenido sobresalga */
 }
@@ -23,7 +23,7 @@
   padding: 20px;
   overflow-y: auto; /* Scroll vertical solo si es necesario */
   height: calc(100% - 40px); /* Restar padding del contenedor */
-  scrollbar-color: #00f7ff #1a1a2e; /* Personalización del scrollbar */
+  scrollbar-color: #00f7ff #1a1a2e; /* PersonalizaciÃ³n del scrollbar */
   scrollbar-width: thin;
 }
 
@@ -41,16 +41,16 @@
   background-color: #3131b0; /* Fondo del scroll */
 }
 
-/* Tarjetas de películas favoritas */
+/* Tarjetas de pelÃ­culas favoritas */
 .favorite-movie-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; /* Se adapta dentro de la cuadrícula */
-  max-width: 200px; /* Tamaño máximo para evitar deformaciones */
+  width: 100%; /* Se adapta dentro de la cuadrÃ­cula */
+  max-width: 200px; /* TamaÃ±o mÃ¡ximo para evitar deformaciones */
   padding: 15px;
   background: rgba(118, 49, 49, 0.8); /* Fondo negro semi-transparente */
-  border: 1px solid var(--neon-azul); /* Borde neón */
+  border: 1px solid var(--neon-azul); /* Borde neÃ³n */
   border-radius: 10px;
   box-shadow: 0 0 15px var(--neon-azul), 0 0 20px var(--neon-azul);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -61,7 +61,7 @@
   box-shadow: 0 0 25px var(--neon-azul), 0 0 35px var(--neon-azul);
 }
 
-/* Imagen de la película */
+/* Imagen de la pelÃ­cula */
 .favorite-movie-card__image {
   width: 100%;
   height: auto;
@@ -70,7 +70,7 @@
   box-shadow: 0 0 10px var(--neon-azul);
 }
 
-/* Título de la película */
+/* TÃ­tulo de la pelÃ­cula */
 .favorite-movie-card__title {
   font-size: 1em;
   font-weight: bold;
@@ -80,7 +80,7 @@
   text-shadow: 0 0 5px var(--neon-azul), 0 0 10px var(--neon-azul);
 }
 
-/* Botón para eliminar una película de favoritos */
+/* BotÃ³n para eliminar una pelÃ­cula de favoritos */
 .remove-favorite {
   background: var(--neon-rojo);
   color: #fff;
@@ -101,7 +101,7 @@
 
 @media (max-width: 1024px) {
   #popupFavorites {
-    width: 80%; /* Más ancho para tablets */
+    width: 80%; /* MÃ¡s ancho para tablets */
     height: 75%;
   }
   
@@ -111,15 +111,15 @@
   }
 
   .favorite-movie-card {
-    max-width: 180px; /* Reducir tamaño de tarjetas */
+    max-width: 180px; /* Reducir tamaÃ±o de tarjetas */
   }
 }
 
-/* Móviles */
+/* MÃ³viles */
 @media (max-width: 768px) {
   #popupFavorites {
-    width: 90%; /* Popup más ancho en móviles */
-    height: 80%; /* Más alto */
+    width: 90%; /* Popup mÃ¡s ancho en mÃ³viles */
+    height: 80%; /* MÃ¡s alto */
   }
   
   .popup-content {
@@ -128,20 +128,20 @@
   }
 
   .favorite-movie-card {
-    max-width: 150px; /* Ajustar tamaño de las tarjetas */
+    max-width: 150px; /* Ajustar tamaÃ±o de las tarjetas */
   }
 }
 
-/* Móviles pequeños */
+/* MÃ³viles pequeÃ±os */
 @media (max-width: 480px) {
   #popupFavorites {
     width: 95%; /* Casi toda la pantalla */
-    height: 85%; /* Más alto */
+    height: 85%; /* MÃ¡s alto */
   }
 
   .popup-content {
     grid-template-columns: 1fr; /* Una sola columna */
-    gap: 10px; /* Espaciado mínimo */
+    gap: 10px; /* Espaciado mÃ­nimo */
   }
 
   .favorite-movie-card {

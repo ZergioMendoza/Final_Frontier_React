@@ -1,8 +1,8 @@
 /* Variables de colores para la pantalla de registro */
 :root {
   --fondo-principal: #0f0f0f;
-  --neon-rojo: #ff007f; /* Rojo neón */
-  --neon-azul: #00ffff; /* Azul neón */
+  --neon-rojo: #ff007f; /* Rojo neÃ³n */
+  --neon-azul: #00ffff; /* Azul neÃ³n */
   --blanco: #ffffff;
   --gris-oscuro: #1e1e1e;
 }
@@ -41,7 +41,7 @@ header {
   display: block;
 }
 
-/* Título */
+/* TÃ­tulo */
 h1 {
   color: var(--neon-rojo);
   text-align: center;

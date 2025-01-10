@@ -34,13 +34,13 @@ header {
 }
 
 .logo {
-  width: 100px; /* Tamaño base */
+  width: 100px; /* TamaÃ±o base */
   height: auto;
   margin: 0 auto;
   display: block;
 }
 
-/* Título */
+/* TÃ­tulo */
 h1 {
   color: var(--neon-azul);
   text-align: center;
@@ -94,7 +94,7 @@ footer {
 /* Media Queries para responsive design */
 @media (max-width: 768px) {
   .logo {
-    width: 80px; /* Logo más pequeño */
+    width: 80px; /* Logo mÃ¡s pequeÃ±o */
   }
 
   header {
@@ -127,7 +127,7 @@ footer {
 
 @media (max-width: 480px) {
   .logo {
-    width: 60px; /* Logo aún más pequeño */
+    width: 60px; /* Logo aÃºn mÃ¡s pequeÃ±o */
   }
 
   header {
@@ -135,7 +135,7 @@ footer {
   }
 
   form {
-    width: 200px; /* Reducir aún más el ancho del formulario */
+    width: 200px; /* Reducir aÃºn mÃ¡s el ancho del formulario */
     padding: 10px;
   }
 
